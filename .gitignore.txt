@@ -1,0 +1,71 @@
+# -------------------------------
+# Build & Publish folders
+bin/
+obj/
+out/
+build/
+dist/
+artifacts/
+
+# -------------------------------
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# -------------------------------
+# Visual Studio
+.vs/
+.vscode/
+*.code-workspace
+
+# -------------------------------
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# -------------------------------
+# ASP.NET & EF Core
+project.lock.json
+project.fragment.lock.json
+*.dbmdl
+migrations/
+
+# -------------------------------
+# Node / React
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.env
+.env.local
+.env.*.local
+
+# -------------------------------
+# Logs / Caches / Temp
+*.log
+*.tmp
+*.bak
+*.cache
+*.swp
+
+# -------------------------------
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -------------------------------
+# Certificates / secrets
+*.pfx
+*.key
+*.snk
+secrets.json
+
+# -------------------------------
+# Test coverage
+coverage/
+*.lcov

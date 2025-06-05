@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningPlatrofm", "LearningPlatrofm.csproj", "{0311906D-C3CE-441B-8BE0-9CF7F12B2217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningPlatform.DataAccess.Postgres", "..\LearningPlatform.DataAccess.Postgres\LearningPlatform.DataAccess.Postgres.csproj", "{50DD64FC-5D89-41C9-8CD0-8DBC7F135A9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0311906D-C3CE-441B-8BE0-9CF7F12B2217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0311906D-C3CE-441B-8BE0-9CF7F12B2217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0311906D-C3CE-441B-8BE0-9CF7F12B2217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0311906D-C3CE-441B-8BE0-9CF7F12B2217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50DD64FC-5D89-41C9-8CD0-8DBC7F135A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DD64FC-5D89-41C9-8CD0-8DBC7F135A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DD64FC-5D89-41C9-8CD0-8DBC7F135A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DD64FC-5D89-41C9-8CD0-8DBC7F135A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3706C750-20F3-46EB-8BD5-760406818A9E}
+	EndGlobalSection
+EndGlobal
