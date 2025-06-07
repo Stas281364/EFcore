@@ -11,6 +11,6 @@
 
 
         //У студента может быть множетсво курсов - один ко многим
-        public List<CourseEntity>? Course { get; set; } = [];
+        public List<CourseEntity>? Courses { get; set; } = [];
     }
 }

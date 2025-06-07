@@ -6,7 +6,7 @@
     public class LessonEntity
     {
         //id
-        public Guid id { get; set; }
+        public Guid Id { get; set; }
 
         //заголовок
         public string Title { get; set; } = string.Empty;
