@@ -13,7 +13,7 @@ namespace LearningPlatform.DataAccess.Postgres
     {
 
         //Конструктор для регистрации DbContext в Depencity Injection
-        public LearningDbContext(DbContextOptions<DbContext> options)
+        public LearningDbContext(DbContextOptions<LearningDbContext> options)
             :base(options)
         {
             

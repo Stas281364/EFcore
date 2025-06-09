@@ -23,7 +23,8 @@ namespace LearningPlatform.DataAccess.Postgres.Configuration
             //Связь один к одному
             builder
                 .HasOne(a => a.Course)
-                .WithOne(c => c.Author);
+                .WithOne(c => c.Author)
+                .HasForeignKey<AuthorEntity>(a => a.CoursId);
 
         }
     }
